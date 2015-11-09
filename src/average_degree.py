@@ -5,8 +5,8 @@ from decimal import Decimal
 
 def main():
 	#Open the files
-	inputFile = open('E:\git\coding-challenge-repo\\test\\tweet_input\\tweets.txt','r')
-	outputFile = open('E:\git\coding-challenge-repo\\test\\tweet_output\\ft2.txt', 'w')
+	inputFile = open(sys.argv[1],'r')
+	outputFile = open(sys.argv[2], 'w')
 
 	#Dictionary for storing tweets within 60 seconds
 	tweetsWithin60Seconds = {}

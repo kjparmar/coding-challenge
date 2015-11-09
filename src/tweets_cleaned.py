@@ -3,8 +3,8 @@
 import sys
 def main():
 	#Open both files
-	inputFile = open('E:\git\coding-challenge-repo\\test\\tweet_input\\tweets.txt','r')
-	outputFile = open('E:\git\coding-challenge-repo\\test\\tweet_output\\ft1.txt', 'w')
+	inputFile = open(sys.argv[1],'r')
+	outputFile = open(sys.argv[2], 'w')
 
 	#Initialize counter for number of unicode character tweets
 	counter = 0
