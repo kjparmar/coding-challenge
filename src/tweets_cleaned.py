@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import sys
 
 def main():
-	inputFile = open('E:\git\coding-challenge-repo\\test\data-gen\\tweets.txt','r')
+	inputFile = open('E:\git\coding-challenge-repo\\test\\tweet_input\\tweets.txt','r')
 	outputFile = open('E:\git\coding-challenge-repo\\test\\tweet_output\\ft1.txt', 'w')
 
 	counter = 0
